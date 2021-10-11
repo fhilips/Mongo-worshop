@@ -21,7 +21,7 @@ import com.filipe.workshopmongo.services.UserService;
 
 @RestController
 @RequestMapping(value = "/users")
-public class userController {
+public class UserController {
 	
 	@Autowired
 	private UserService service;
